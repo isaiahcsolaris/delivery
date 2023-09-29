@@ -1,0 +1,159 @@
+@media(max-width:1280px){
+  .about-border{
+    left: 42%;
+  }
+}
+
+@media(max-width:1220px){
+
+  .about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about div{
+    margin: 30px;
+  }
+
+  .about-image{
+    width: 90%;
+  }
+
+  .about{
+    width: 90%;
+    text-align: center;
+  }
+
+  .about-border{
+   display: none;
+  }
+}
+
+@media(max-width:810px){
+  .search-box{
+    width: 100%;
+    margin-bottom: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-box input{
+    padding: 10px;
+    width: 70%;
+    margin: 10px;
+  }
+
+  .search-box button{
+    margin-right: 2%;
+  }
+  
+  .first .expls{
+    width: 90%;
+  }
+}
+
+@media(max-width:690px){
+
+  .nav{
+    display: none;
+  }
+  
+  .mobile-nav-btn{
+    display: block;
+    margin-right: 1%;
+    width: 40px;
+    height: 40px;
+    background: url(../iconz/menu.webp);
+    background-size: cover;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+
+  .mobile-nav-btn.nav-option{
+    background: url(../iconz/close.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    mix-blend-mode: hard-light;
+  }
+
+  .mobile-nav{
+    display: flex;
+    background: #131313c5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 900;
+    display: none;
+  }
+
+  .mobile-nav.nav-option{
+    display: block;
+  }
+
+  .mobile-nav-menu{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    left: 10%;
+    height: 80vh;
+    background: #ddd4d4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 1px #000000;
+    transition: 0.8s ease;
+  }
+
+  .mobile-nav-menu a, link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.8s ease;
+  }
+
+  .mobile-nav-menu a:hover{
+    text-decoration: 3px underline;
+    transform: scale(1.2);
+  }
+
+  .track-container div input{
+    width: 95%;
+    margin: 5px;
+  }
+  
+  .track-input-btn{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+}
+
+@media(max-width:540px){
+  .search-box{
+    margin: 20px;
+    
+  }
+
+  .first p{
+    font-size: 40px;
+  }
+
+  .first .expls span{
+    margin-bottom: 20px;
+  }
+}
+
+
